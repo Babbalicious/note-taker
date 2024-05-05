@@ -1,7 +1,8 @@
-const pageRouter = require("express").Router();
+const express = require("express");
+const pageRouter = express.Router();
 const path = require("path");
 
-pageRouter.get("*", (req, res) => {
+pageRouter.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "../public/index.html"));
 });
 
