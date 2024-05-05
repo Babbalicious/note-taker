@@ -14,7 +14,7 @@ When the user clicks the Save button the new note is saved and added to the note
 
 ## Screenshot
 
-![Application Screenshot](./Develop/images/screenshot.png)
+![Application Screenshot](./images/screenshot.png)
 
 ## Contact Me
 
